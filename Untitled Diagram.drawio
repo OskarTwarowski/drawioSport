@@ -166,7 +166,7 @@
             <mxPoint x="670" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6vV1UMX7yi0fHzziR3rk-66" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-66" value="Ustawienia drużyny" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="960" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="6vV1UMX7yi0fHzziR3rk-69" value="generuj nowy kod drużyny" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-66">
@@ -182,7 +182,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6vV1UMX7yi0fHzziR3rk-68" value="ustawienia drużyny" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="450" y="900" width="70" height="40" as="geometry" />
+          <mxGeometry x="440" y="890" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

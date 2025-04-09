@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="26.2.9">
   <diagram name="Page-1" id="g__3kYeK3XYvJIfZjNgy">
-    <mxGraphModel dx="917" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1019" dy="1773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,6 +77,57 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="270" as="sourcePoint" />
             <mxPoint x="370" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-33" value="Powiadomienia" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="670" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-38" value="Płatności" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="430" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-53" value="Płatność (rodzic)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-38">
+          <mxGeometry x="10" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-54" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-38">
+          <mxGeometry x="20" y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-39" value="Kalendarz" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="180" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-51" value="Dodanie wydarzenia ( tylko trener)&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-39">
+          <mxGeometry x="10" y="40" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-52" value="przegląd wydarzeń ( rodzic i zawodnik)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-39">
+          <mxGeometry x="15" y="85" width="165" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-40" value="Drużyna" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-70" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-45" value="Trener (imie nazwisko nr tel)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-40">
+          <mxGeometry x="10" y="40" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-46" value="Lista zawodników" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-40">
+          <mxGeometry x="15" y="80" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-47" value="Imię Nazwisko&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-46">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-49" value="nr tel ( tylko &amp;nbsp;Trener)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-46">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-41" value="Ustawienia" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="670" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6vV1UMX7yi0fHzziR3rk-16" target="6vV1UMX7yi0fHzziR3rk-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="260" as="sourcePoint" />
+            <mxPoint x="710" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="6vV1UMX7yi0fHzziR3rk-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="350" as="sourcePoint" />
+            <mxPoint x="710" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

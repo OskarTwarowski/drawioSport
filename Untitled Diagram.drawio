@@ -1,9 +1,21 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="26.2.9">
-  <diagram name="Page-1" id="RCPGD9t7-k-H0ON3VL7G">
-    <mxGraphModel>
+  <diagram name="Page-1" id="g__3kYeK3XYvJIfZjNgy">
+    <mxGraphModel dx="917" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GRTWhs6c1ZP4dvjhobR6-1" value="Strona Główna" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GRTWhs6c1ZP4dvjhobR6-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GRTWhs6c1ZP4dvjhobR6-3" value="Zaloguj się" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GRTWhs6c1ZP4dvjhobR6-4" value="Zarejestruj się" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

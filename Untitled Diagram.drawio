@@ -4,17 +4,44 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GRTWhs6c1ZP4dvjhobR6-1" value="Strona Główna" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="40" y="120" width="100" height="120" as="geometry" />
+        <mxCell id="GRTWhs6c1ZP4dvjhobR6-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="85" width="130" height="315" as="geometry" />
         </mxCell>
-        <mxCell id="GRTWhs6c1ZP4dvjhobR6-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="130" width="130" height="120" as="geometry" />
+        <mxCell id="GRTWhs6c1ZP4dvjhobR6-3" value="Zaloguj się" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="400" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GRTWhs6c1ZP4dvjhobR6-3" value="Zaloguj się" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="250" width="80" height="30" as="geometry" />
+        <mxCell id="GRTWhs6c1ZP4dvjhobR6-4" value="Zarejestruj się" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="200" y="30" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GRTWhs6c1ZP4dvjhobR6-4" value="Zarejestruj się" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="90" width="70" height="30" as="geometry" />
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-5" value="Strona Główna" style="swimlane;whiteSpace=wrap;html=1;gradientColor=default;fillColor=none;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry y="80" width="140" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-6" value="Zaloguj się" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-5">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-7" value="Zarejestruj się" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-5">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-9" value="Rejestracja" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-10" value="Imię&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-9">
+          <mxGeometry y="20" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-11" value="Nazwisko" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-9">
+          <mxGeometry x="40" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-12" value="Email" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-9">
+          <mxGeometry x="40" y="75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-14" value="hasło" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-9">
+          <mxGeometry x="40" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-15" value="kod drużyny" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6vV1UMX7yi0fHzziR3rk-9">
+          <mxGeometry x="30" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6vV1UMX7yi0fHzziR3rk-16" value="Menu Główne" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
